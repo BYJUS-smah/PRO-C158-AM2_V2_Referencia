@@ -21,13 +21,13 @@ AFRAME.registerComponent("cursor-listener", {
     }
   },
   handleMouseEnterEvents: function () {
-    //Cursor 'mouseenter' Events
+    // Evento 'mouseenter' del cursor.
     this.el.addEventListener("mouseenter", () => {
       this.handlePlacesListState();
     });
   },
   handleMouseLeaveEvents: function () {
-    //Cursor 'mouseleave' Events
+    // Evento 'mouseleave' del cursor.
     this.el.addEventListener("mouseleave", () => {
       const { selectedItemId } = this.data;
       if (selectedItemId) {
