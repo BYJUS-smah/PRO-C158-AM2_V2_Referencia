@@ -66,7 +66,7 @@ AFRAME.registerComponent("tour", {
       opacity: 1,
     });
 
-    //Agregar componente cursor-listener a la entidad de borde de anillo para cambiar su color. 
+    //Agregar componente cursor-listener a la entidad de borde de anillo para cambiar su color, 
     // con la entidad 'mouseenter' y 'mouseleave' del cursor.
     entityEl.setAttribute("cursor-listener", {});
 
